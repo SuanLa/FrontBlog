@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362." />
+    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362.">
+      <change afterPath="$PROJECT_DIR$/FrontBlog/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/HelloWorld.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/TheWelcome.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +22,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MonOkyx81z0KICkdW8t0IexYVu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -31,6 +43,21 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="未命名" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/FrontBlog/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="dev" />
+          </scripts>
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -40,6 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678442776750</updated>
       <workItem from="1678442778291" duration="435000" />
+      <workItem from="1678453920948" duration="3277000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362.">
       <created>1678443212848</created>
@@ -66,6 +94,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="删除前端框架" />
     <MESSAGE value="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362." />
     <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362." />
