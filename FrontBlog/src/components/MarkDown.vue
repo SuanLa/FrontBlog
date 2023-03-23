@@ -1,17 +1,16 @@
-<template>
-  <v-md-editor :text="markdown" height="400px"></v-md-editor>
-</template>
+<script setup>
+const text = defineProps({
+  text:String
+})
 
-<script>
-export default {
-  data() {
-    return {
-      text: '',
-    };
-  },
-};
 </script>
 
-<style scoped>
+<template>
+  <v-md-preview id="md" :text="text.text"></v-md-preview>
+</template>
 
+<style scoped>
+  #md {
+    width: 140%;
+  }
 </style>

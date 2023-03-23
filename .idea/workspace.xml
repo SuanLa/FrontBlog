@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="test">
-      <change afterPath="$PROJECT_DIR$/FrontBlog/src/components/MarkDown.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="整体架构搭建完毕">
+      <change afterPath="$PROJECT_DIR$/FrontBlog/public/cool-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontBlog/public/preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FrontBlog/src/assets/back.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/Navigation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/WelcomeItem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/MarkDown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/MarkDown.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/Navigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +28,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e85f0c40-1f82-4181-8a46-bc2055016fa1" />
+        <option name="url" value="https://github.com/SuanLa/FrontBlog.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,15 +65,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "B:/github/FrontBlog/FrontBlog/public",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "C:\\Users\\ASUS\\AppData\\Local\\JetBrains\\WebStorm 2021.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="B:\github\FrontBlog\FrontBlog\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\github\FrontBlog\FrontBlog\public" />
+      <recent name="B:\github\FrontBlog\FrontBlog\src\assets" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Blog" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2">
@@ -87,7 +115,9 @@
       <workItem from="1678782938638" duration="13204000" />
       <workItem from="1678803495234" duration="1830000" />
       <workItem from="1678862561198" duration="37000" />
-      <workItem from="1678862614954" duration="7712000" />
+      <workItem from="1678862614954" duration="8579000" />
+      <workItem from="1679531692201" duration="614000" />
+      <workItem from="1679532346338" duration="19166000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362.">
       <created>1678443212848</created>
@@ -103,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678458193910</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="整体架构搭建完毕">
+      <created>1678870789879</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678870789879</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +162,7 @@
     <MESSAGE value="删除前端框架" />
     <MESSAGE value="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362." />
     <MESSAGE value="增加所需包" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加所需包" />
+    <MESSAGE value="整体架构搭建完毕" />
+    <option name="LAST_COMMIT_MESSAGE" value="整体架构搭建完毕" />
   </component>
 </project>
