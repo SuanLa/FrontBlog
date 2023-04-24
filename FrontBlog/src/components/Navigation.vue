@@ -4,21 +4,23 @@ import axios from "axios";
 const props = defineProps({
   msg: {
     type: String,
-    required: true
+    required: true,
   },
   href: {
     type: String,
     required:true
   }
-})
+});
 
-const axios1 = function (){
-  axios.get('/getMessage?'+props.href)
+const emits = defineEmits(['response']);
+
+const axios1 = function putMessage(){
+  axios.get('/blog/getMessage?id='+props.href)
       .then(function (response) {
-        response.data
-        alert("成功！")
+        emits('response',response.data.data);
       })
       .catch(function (error){
+        emits('response',"请重试！！");
         alert("出错了！")
       })
 }

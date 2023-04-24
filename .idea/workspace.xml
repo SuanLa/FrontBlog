@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="整体架构搭建完毕">
-      <change afterPath="$PROJECT_DIR$/FrontBlog/public/cool-background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontBlog/public/preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FrontBlog/src/assets/back.css" afterDir="false" />
+    <list default="true" id="6d1308ae-2a75-4842-898d-6133fd827392" name="变更" comment="Version 0.1.0">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FrontBlog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/MarkDown.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/MarkDown.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/components/Navigation.vue" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/components/Navigation.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FrontBlog/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/FrontBlog/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -59,24 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "B:/github/FrontBlog/FrontBlog/public",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\ASUS\\AppData\\Local\\JetBrains\\WebStorm 2021.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;B:/github/FrontBlog/FrontBlog/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ASUS\\AppData\\Local\\JetBrains\\WebStorm 2021.3.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="B:\github\FrontBlog\FrontBlog\public" />
@@ -86,7 +83,7 @@
       <recent name="B:\github\FrontBlog\FrontBlog\src\assets" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.package">
     <configuration name="Blog" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
       <method v="2">
         <option name="NpmBeforeRunTask" enabled="true">
@@ -100,6 +97,23 @@
         </option>
       </method>
     </configuration>
+    <configuration name="package" type="NodeJSConfigurationType" working-dir="$PROJECT_DIR$">
+      <method v="2">
+        <option name="NpmBeforeRunTask" enabled="true">
+          <package-json value="$PROJECT_DIR$/FrontBlog/package.json" />
+          <command value="run" />
+          <scripts>
+            <script value="build" />
+          </scripts>
+          <node-interpreter value="project" />
+          <envs />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Blog" />
+      <item itemvalue="Node.js.package" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +131,34 @@
       <workItem from="1678862561198" duration="37000" />
       <workItem from="1678862614954" duration="8579000" />
       <workItem from="1679531692201" duration="614000" />
-      <workItem from="1679532346338" duration="19166000" />
+      <workItem from="1679532346338" duration="19566000" />
+      <workItem from="1679569418460" duration="8194000" />
+      <workItem from="1679653721840" duration="1735000" />
+      <workItem from="1679667426595" duration="5596000" />
+      <workItem from="1679708589017" duration="5439000" />
+      <workItem from="1679723352477" duration="4883000" />
+      <workItem from="1679796469840" duration="1386000" />
+      <workItem from="1679800961773" duration="291000" />
+      <workItem from="1679801516783" duration="681000" />
+      <workItem from="1679802285343" duration="775000" />
+      <workItem from="1679894817904" duration="170000" />
+      <workItem from="1679922444741" duration="1971000" />
+      <workItem from="1680012510874" duration="2508000" />
+      <workItem from="1680145723414" duration="294000" />
+      <workItem from="1680146076011" duration="108000" />
+      <workItem from="1680246331560" duration="644000" />
+      <workItem from="1680268957330" duration="927000" />
+      <workItem from="1680851197345" duration="75000" />
+      <workItem from="1681184338358" duration="5000" />
+      <workItem from="1681184747519" duration="25000" />
+      <workItem from="1681632654317" duration="47000" />
+      <workItem from="1681787692440" duration="3371000" />
+      <workItem from="1681824415889" duration="4380000" />
+      <workItem from="1681880778017" duration="14251000" />
+      <workItem from="1681959772466" duration="11616000" />
+      <workItem from="1681984508373" duration="15000" />
+      <workItem from="1681985599393" duration="74000" />
+      <workItem from="1682348489575" duration="1506000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362.">
       <created>1678443212848</created>
@@ -140,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678870789879</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="页面大致完成，剩余逻辑部分">
+      <created>1679556636517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1679556636517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,6 +211,8 @@
     <MESSAGE value="Revert &quot;加入前端框架&quot;&#10;This reverts commit 2a80e6feaa9de28519fda8d4fccafbbb31a7c362." />
     <MESSAGE value="增加所需包" />
     <MESSAGE value="整体架构搭建完毕" />
-    <option name="LAST_COMMIT_MESSAGE" value="整体架构搭建完毕" />
+    <MESSAGE value="页面大致完成，剩余逻辑部分" />
+    <MESSAGE value="Version 0.1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 0.1.0" />
   </component>
 </project>

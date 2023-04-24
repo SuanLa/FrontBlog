@@ -2,7 +2,6 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 
-
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 
@@ -14,7 +13,7 @@ import '@kangc/v-md-editor/lib/theme/style/github.css';
 
 import hljs from 'highlight.js';
 
-import './assets/back.css'
+//import './assets/back.css'
 
 VMdPreview.use(githubTheme, {
     Hljs: hljs,
